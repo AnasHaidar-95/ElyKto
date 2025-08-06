@@ -1,0 +1,50 @@
+/* إخفاء السكروول في Chrome, Safari, Edge */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* * {
+  overflow-x: hidden !important;
+} */
+
+.over {
+  overflow: hidden !important;
+}
+
+/* إخفاء السكروول في Firefox */
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* تصميم عام لشريط التمرير */
+::-webkit-scrollbar {
+  width: 12px; /* عرض الشريط */
+  height: 12px; /* ارتفاع الشريط الأفقي */
+  background: transparent; /* خلفية الشريط */
+}
+
+/* تصميم المسار (track) */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* لون خلفية المسار */
+  border-radius: 8px; /* حواف دائرية */
+}
+
+/* تصميم المقبض (thumb) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #38bdf8, #0284c7); /* تدرج أزرق */
+  border-radius: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.2); /* إطار حول المقبض */
+  transition: background-color 0.3s ease;
+}
+
+/* تأثير عند التمرير فوق المقبض */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0ea5e9, #0369a1);
+}
+
+/* Scrollbar في Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0284c7 rgba(255, 255, 255, 0.1);
+}
