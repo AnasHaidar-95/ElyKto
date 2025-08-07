@@ -1,6 +1,6 @@
-# MERN Stack Chat Application
+# ElyKto
 
-This is a full-stack real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Socket.io for real-time communication.
+ElyKto is a full-stack real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Socket.io for real-time communication.
 
 ## Features
 
